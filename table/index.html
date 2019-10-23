@@ -1,1 +1,68 @@
-
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<style>
+			table { border: 2px solid black; }
+			th { background-color: #08088A; vertical-align: center; color: #FFFFFF; font-family: Arial; font-weight: normal; font-size: x-large; height: 100px; width: 200px; border: 1px solid #CCC;}
+			td { font-family: Arial; font-weight: bold; vertical-align: middle; text-align: center; height: 100px; width: 200px; border: 1px solid #CCC; }
+			h1 { font-size: x-large; }
+			caption { background-color: #F7F2E0; font-family: Times New Roman; font-size: xx-large; }
+			.startfinish { background-color: #31B404; color: #FFFFFF; font-size: x-large; font-weight: normal; }
+			.staircell { background-color: #FFBF00; vertical-align: center; font-size: large;}
+			.backstep { background-color: #B40404; color: #FFFFFF; vertical-align: center; font-size: large;}
+			.firstlevel { background-color: #00FFBF }
+			.secondlevel { background-color: #81DAF5 }
+			.thirdlevel { background-color: #5882FA }
+			.fourthlevel { background-color: #9E9BA1 }
+			.fifthlevel { background-color: #DCB657 }
+			.sixthlevel { background-color: #BA7138 }
+			.seventhlevel { background-color: #C74C33 }
+			#guide { background-color: #F7F2E0; font-family: Times New Roman; font-weight: normal}
+		</style>
+		<title>Board Game: Adventure Run</title>
+	</head>
+	<body>
+		<table>
+			<caption>Adventure Run</caption>
+			<tr class=seventhlevel>
+				<th scope=row>Roll of 4<br>Move 2</th><td>28&#x21FE;</td><td>29&#x21FE;</td><td>30&#x21FE;</td><td class=backstep>31<br><strong>GO BACK</strong><br>to tile 23</td><td class="startfinish">&mdash; Finish &mdash;</td>
+			</tr>
+			<tr class=sixthlevel>
+				<th rowspan="2" scope=row>Roll of 3<br>Move 6</th><td>&UpArrowBar;27</td><td>&#x21FD;26</td><td rowspan="2" class="staircell">25<br><strong>GO&uHar;UP</strong><br>20</td><td>&#x21FD;24</td><td>&#x21FD;23</td>
+			</tr>
+			<tr class=fifthlevel>
+				<td>18&#x21FE;</td><td>19&#x21FE;</td><td class=backstep>21<br><strong>GO BACK</strong><br>to tile 15</td><td>22&UpArrowBar;</td>
+			</tr>
+			<tr class=fourthlevel>
+				<th scope=row>Roll of 2<br>Move 4</th><td>&UpArrowBar;17</td><td>&#x21FD;16</td><td>&#x21FD;15</td><td colspan="2">&#x21FD;14</td>
+			</tr>
+			<tr class=thirdlevel>
+				<th rowspan="2" scope=row>Roll of 4<br>Move 8</th><td>9&#x21FE;</td><td rowspan="2" class=staircell>10<br>GO&uHar;UP<br>7</td><td>11&#x21FE;</td><td>12&#x21FE;</td><td>13&UpArrowBar;</td>
+			</tr>
+			<tr class=secondlevel>
+				<td>&UpArrowBar;8</td><td class=backstep>6<br><strong>GO BACK</strong><br>to tile 3</td><td>&#x21FD;5</td><td>&#x21FD;4</td>
+			</tr>
+			<tr class=firstlevel>
+				<td colspan="2" class="startfinish">Start &raquo;</td><td>1&#x21FE;</td><td colspan="2">2&#x21FE;</td><td>3&UpArrowBar;</td>
+			</tr>
+			<tr>
+				<td colspan="6" id=guide>
+					<h1>Guide and Rules</h1>
+					<p> The festival has begun and the race to choose the next chieftain has started. Begin from the peacefulness of the island's coast. Plunge into the rough sea waters towards Dead Island. Once there, traverse through the abandoned fortress and into the dessert. Finally, run through the scorching lands surrounding the volcano to achieve victory. Good Luck.
+					</p>
+					<ul>
+						<li><strong>Goal:</strong> Have your piece reach the finish tile by using a single regular dice.</li>
+						<li>Up to 4 players can play.</li>
+						<li>Each player rolls the dice one time and moves their piece accordingly.</li>
+						<li>Left-column rules apply to their respective rows.</li>
+						<li>Landing on an orange tile lets you go up one level.</li>
+						<li>Landing on a dark red tile sends you back to a specific tile.</li>
+						<li>If the dice gives a number higher than the needed to exactly land on the finish tile, turn is skipped and player's piece does not move.</li>
+					</ul>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>
