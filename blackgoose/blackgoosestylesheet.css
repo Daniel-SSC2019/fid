@@ -1,0 +1,18 @@
+body { background-color: rgba(102,153,204,.5); margin: 2em 10%; font-family: Baskervville, serif; }
+
+h1 { color: #006666; background-color: rgba(102,51,204,.25); text-align: center; font-family: Courgette, cursive; font-weight: lighter; text-transform: uppercase; border-bottom: 5px solid #006666; margin-top: 30px; font-size: 1.75em; }
+
+h2 { color: #008080; background-color: rgba(153,102,255,.25); background-clip: content-box; font-family: Courgette, cursive; font-size: 1.5em; font-weight: lighter}
+
+h3 { color: #008080; background-color: rgba(153,102,255,.25); background-clip: content-box; font-family: Courgette, cursive; font-size: 1em; font-weight: lighter }
+
+nav { background-color: rgba(72,46,118,.125); }
+
+a {text-decoration: none; }
+a:link {color: #660099; }
+a:visited {color: #990099; }
+a:focus {color: #660099; background-color: rgba(255,255,255,.25); }
+a:hover {color: #660099; background-color: rgba(255,255,255,.25); }
+a:active {color: #660099; background-color: rgba(255,255,255,.75) }
+
+small { color: #333333; }
