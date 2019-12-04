@@ -1,0 +1,16 @@
+body { background-color: rgba(40,148,112,.75); background-image: url(images/seawater.png); background-repeat: no-repeat; background-size: cover; background-attachment: fixed; margin: 5% 2%; font-family: Montserrat, sans-serif; font-size: large; text-align: center; }
+
+h1 { color: #660033; background-color: rgba(144,211,225,.75); font-family: "Donegal One", serif; font-weight: normal; font-size: 2.25em; text-transform: uppercase; }
+
+h2 { color: rgba(102,0,51,.75); background-color: rgba(144,211,225,.5); font-family: "Donegal One", serif; font-size: 2em; font-weight: lighter; }
+
+p, ol, ul, dl {background-color: rgba(255,255,255,.25); }
+
+a {text-decoration: none; }
+a:link {color: rgba(102,0,51,.70); }
+a:visited {color: rgba(102,0,51,1); }
+a:focus {color: rgba(102,0,51,.70); background-color: rgba(255,255,255,.25); }
+a:hover {color: rgba(102,0,51,.70); background-color: rgba(255,255,255,.25); }
+a:active {color: rgba(102,0,51,.70); background-color: rgba(255,255,255,.75) }
+
+nav {text-align:center; }
